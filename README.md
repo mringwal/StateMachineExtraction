@@ -1,5 +1,5 @@
 
-Project title: "Annotation-based state machine definition for doubly nested switch-case implementations"
+## Annotation-based state machine definition for doubly nested switch-case implementations
 
 - goals: testability, documentation
 - assumptions: fixed code stucture
@@ -12,7 +12,7 @@ Project title: "Annotation-based state machine definition for doubly nested swit
   - "inverse handler" for "global" events
 
 Example:
-{
+
     // @STATEMACHINE(multiplexer)
     switch (multiplexer->state) {       // detect state variable, count {
         case W4_MULTIPLEXER:            // implicit state
@@ -27,5 +27,4 @@ Example:
             break;
         }
     }
-}
     
